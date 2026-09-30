@@ -9,8 +9,7 @@ from shapely.geometry import Polygon, Point, LineString, MultiPolygon, box
 from shapely.ops import unary_union
 from shapely import affinity
 
-import os
-FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fonts') + os.sep
+FONTS = '/tmp/claude-0/-home-user-try/817d331a-9b76-5fe5-b77e-5f254d347fa1/scratchpad/fonts/'
 _font_cache = {}
 
 
